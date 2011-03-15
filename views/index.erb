@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title></title>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="custom.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+		
+		<style type="text/css" media="screen">
+			body {
+				text-align:center;
+				font-family:Helvetica, Arial, sans-serif;
+				font-size:16px/48px;
+				font-weight:normal;
+				color:#999;
+				background:white;
+				margin:0 auto;
+			}
+			
+			a {
+				color:#c10000;
+				text-decoration:none;
+			}
+			
+			input[type=text] {
+				width:250px;
+				background:white;
+				color:#ccc;
+				border:1px solid #ccc;
+				margin-right:20px;
+				height:24px;
+				padding:0 5px;
+			}
+			
+			h1 {
+				display:block;
+				background:url('images/helvetibook_facebook_deuglified.png') no-repeat top center;
+				height:102px;
+				text-indent:-9999px;
+			}
+			
+			p {
+				margin:24px 0 0 14px;
+			}
+			
+			form {
+				margin-bottom:30px;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body lang="en">
+		
+		<h1>Helvetibook</h1>
+		<p>Please follow <a href="http://twitter.com/helvetibook">@helvetibook</a> or enter your email and we will notify you:</p>
+		
+		<form action="email_submit" method="post" accept-charset="utf-8">
+			<p><input type="text" name="email" value="john.doe@acme.com" id=""><input type="submit" value="Submit &rarr;"></p>
+		</form>
+		
+		<img src="images/helvetibook_preview.png" width="849" height="963" alt="Helvetibook Preview">
+		
+	</body>
+	
+</html>
